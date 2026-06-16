@@ -11,3 +11,18 @@ sb: 40
 lr: linear 0.001->0.00000243
 
 Elo: 119.69 +/- 23.60
+
+
+Name: net2
+Previous: net1
+Arch: (768->32)x2->1
+Unfiltered data:
+games: 2046353
+positions: 247733911
+
+Training:
+constant wdl: 0.0
+sb: 40
+lr: linear 0.001->0.00000243
+
+Elo: 44.24 +/- 14.30
