@@ -1,0 +1,13 @@
+Name: net1
+Previous: psqt-material count
+Arch: (768->16)x2->1
+Unfiltered data:
+games: 2046353
+positions: 247733911
+
+Training:
+constant wdl: 0.0
+sb: 40
+lr: linear 0.001->0.00000243
+
+Elo: 119.69 +/- 23.60
