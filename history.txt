@@ -4,6 +4,7 @@ Arch: (768->16)x2->1
 Unfiltered data:
 games: 2046353
 positions: 247733911
+source: psqt-material count
 
 Training:
 constant wdl: 0.0
@@ -14,11 +15,11 @@ Elo: 119.69 +/- 23.60
 
 
 Name: net2
-Previous: net1
 Arch: (768->32)x2->1
 Unfiltered data:
 games: 2046353
 positions: 247733911
+source: psqt-material count
 
 Training:
 constant wdl: 0.0
@@ -29,11 +30,11 @@ Elo: 44.24 +/- 14.30
 
 
 Name: net3
-Previous: net2
 Arch: (768->64)x2->1
 Unfiltered data:
 games: 2046353
 positions: 247733911
+source: psqt-material count
 
 Training:
 constant wdl: 0.0
@@ -44,11 +45,11 @@ Elo: 21.81 +/- 9.70
 
 
 Name: net4
-Previous: net3
 Arch: (768->64)x2->1
 Unfiltered data:
 games: 2046353
 positions: 247733911
+source: psqt-material count
 
 Training:
 constant wdl: 0.3
@@ -59,11 +60,11 @@ Elo: 94.57 +/- 20.24
 
 
 Name: net5
-Previous: net4
 Arch: (768->64)x2->1
 Unfiltered data:
 games: 2046353
 positions: 247733911
+source: psqt-material count
 
 Training:
 constant wdl: 0.5
@@ -71,3 +72,18 @@ sb: 40
 lr: linear 0.001->0.00000243
 
 Elo: 21.09 +/- 9.42
+
+
+Name: net6
+Arch: (768->64)x2->1
+Unfiltered data:
+games: 981904
+positions: 130614967
+source: net5
+
+Training:
+constant wdl: 0.5
+sb: 40
+lr: linear 0.001->0.00000243
+
+Elo: 27.10 +/- 10.89
