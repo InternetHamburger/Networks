@@ -102,3 +102,18 @@ sb: 40
 lr: linear 0.001->0.00000243
 
 Elo: 39.57 +/- 12.90
+
+
+Name: net8
+Arch: (768->128)x2->1
+Unfiltered data:
+games: 1973583
+positions: 264864241
+source: net5 + net7
+
+Training:
+constant wdl: 0.5
+sb: 40
+lr: linear 0.001->0.00000243
+
+Elo: 38.86 +/- 12.52
