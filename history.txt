@@ -177,3 +177,18 @@ sb: 100
 lr: linear 0.001->0.00000243
 
 Elo: 25.60 +/- 13.32
+
+
+Name: net13
+Arch: (768->512)x2->1
+Unfiltered data:
+games: 4799457
+positions: 658747049
+source: net8 + net9 + net10 + net12
+
+Training:
+constant wdl: 0.5
+sb: 100
+lr: linear 0.001->0.00000243
+
+Elo: 11.61 +/- 8.26
