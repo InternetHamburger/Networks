@@ -237,3 +237,18 @@ sb: 100
 lr: linear 0.001->0.00000243
 
 Elo: 3.30 +/- 2.66
+
+
+Name: net17
+Arch: (768->1024)x2->1
+Unfiltered data:
+games: 10013345
+gositions: 1373550872
+source: net8 + net9 + net10 + net12 + net14 + net15
+
+Training:
+constant wdl: 0.4
+sb: 100
+lr: linear 0.001->0.00000243
+
+Elo: 9.75 +/- 5.60
