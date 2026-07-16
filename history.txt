@@ -228,7 +228,7 @@ Name: net16
 Arch: (768->512)x2->1
 Unfiltered data:
 games: 10013345
-gositions: 1373550872
+positions: 1373550872
 source: net8 + net9 + net10 + net12 + net14 + net15
 
 Training:
@@ -243,7 +243,7 @@ Name: net17
 Arch: (768->1024)x2->1
 Unfiltered data:
 games: 10013345
-gositions: 1373550872
+positions: 1373550872
 source: net8 + net9 + net10 + net12 + net14 + net15
 
 Training:
@@ -252,3 +252,20 @@ sb: 100
 lr: linear 0.001->0.00000243
 
 Elo: 9.75 +/- 5.60
+
+
+Name: net17
+Arch: (768->1024)x2->8
+Unfiltered data:
+games: 10013345
+positions: 1373550872
+Filtered data:
+positions: 931788570
+source: net8 + net9 + net10 + net12 + net14 + net15
+
+Training:
+constant wdl: 0.4
+sb: 100
+lr: linear 0.001->0.00000243
+
+Elo: 5.28 +/- 3.82
