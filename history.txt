@@ -303,3 +303,20 @@ sb: 250
 lr: linear 0.001->0.00000243
 
 Elo: 9.87 +/- 5.75
+
+
+Name: net21
+Arch: (768x4hm->1024)x2->8
+Unfiltered data:
+games: 14155834
+positions: 1962522026
+Filtered data:
+positions: 1338598532
+source: net8 + net9 + net10 + net12 + net14 + net15 + net16 + net18 + net19 + net20
+
+Training:
+constant wdl: 0.4
+sb: 400
+lr: linear 0.001->0.00000243
+
+Elo: 8.02 +- 5.08
