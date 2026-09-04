@@ -337,3 +337,20 @@ sb: 400
 lr: linear 0.001->0.00000243
 
 Elo: stc 15.74 +/- 7.38  ltc 12.14 +/- 6.14
+
+
+Name: net23
+Arch: (768x4hm->1024)x2->8
+Unfiltered data:
+games: 23117615
+positions: 3267717160
+Filtered data:
+positions: 2251638126
+source: net8 + net9 + net10 + net12 + net14 + net15 + net16 + net18 + net19 + net20 + net21 + net22
+
+Training:
+Linear wdl: 0.0->0.4
+sb: 400
+lr: linear 0.001->0.00000243
+
+Elo: stc 14.72 +/- 7.00
